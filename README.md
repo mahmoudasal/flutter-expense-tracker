@@ -144,7 +144,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mahmoud Asal**
 - GitHub: [@mahmoudasal](https://github.com/mahmoudasal)
-- Email: mahmoud.asal@example.com
+- Email: mahmoudasal656@gmail.com
 
 ## 🙏 Acknowledgments
 
