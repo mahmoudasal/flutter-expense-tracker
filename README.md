@@ -291,7 +291,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   
   [![GitHub](https://img.shields.io/badge/GitHub-mahmoudasal-black?logo=github)](https://github.com/mahmoudasal)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/mahmoudasal)
-  [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:mahmoud.asal@example.com)
+  [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:mahmoudasal656@gmail.com)
 </div>
 
 ### 🏆 Expertise
