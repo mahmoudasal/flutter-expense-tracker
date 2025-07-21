@@ -281,25 +281,6 @@ This project follows [Conventional Commits](https://www.conventionalcommits.org/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author & Maintainer
-
-<div align="center">
-  <img src="https://github.com/mahmoudasal.png" width="100" height="100" style="border-radius: 50%;" alt="Mahmoud Asal"/>
-  
-  **Mahmoud Asal**  
-  *junior Flutter Developer*
-  
-  [![GitHub](https://img.shields.io/badge/GitHub-mahmoudasal-black?logo=github)](https://github.com/mahmoudasal)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/mahmoudasal)
-  [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:mahmoudasal656@gmail.com)
-</div>
-
-### 🏆 Expertise
-- **Flutter & Dart**: 2+ years of cross-platform mobile development
-- **Mobile Architecture**: Clean Architecture, MVVM, and state management patterns
-- **UI/UX Design**: Material Design and custom design system implementation
-- **Performance Optimization**: App profiling and optimization techniques
-
 ## 🙏 Acknowledgments & Credits
 
 ### 📚 Learning Resources
