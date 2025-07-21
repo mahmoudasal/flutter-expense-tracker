@@ -287,7 +287,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <img src="https://github.com/mahmoudasal.png" width="100" height="100" style="border-radius: 50%;" alt="Mahmoud Asal"/>
   
   **Mahmoud Asal**  
-  *Senior Flutter Developer*
+  *junior Flutter Developer*
   
   [![GitHub](https://img.shields.io/badge/GitHub-mahmoudasal-black?logo=github)](https://github.com/mahmoudasal)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/mahmoudasal)
@@ -320,11 +320,6 @@ If you encounter any issues, please report them using our [Issue Tracker](https:
 - Steps to reproduce
 - Device information and Flutter version
 - Screenshots (if applicable)
-
-### 📧 Direct Contact
-- **Email**: mahmoudasal656@gmail.com
-- **Response Time**: Within 24-48 hours
-- **Languages**: English, Arabic
 
 ### 🌟 Show Your Support
 If this project has been helpful:
