@@ -1,3 +1,4 @@
+import 'package:expense_tracker/widgets/charts/chart.dart';
 import 'package:expense_tracker/widgets/expenses_list/expenses_list.dart';
 import 'package:expense_tracker/models/expense.dart';
 import 'package:expense_tracker/widgets/new_expense.dart';
@@ -25,7 +26,20 @@ class _ExpensesState extends State<Expenses> {
     });
   }
 
-  final List<Expense> _registeredExpenses = [];
+  final List<Expense> _registeredExpenses = [
+    Expense(
+      title: "New Shoes",
+      amount: 69.99,
+      date: DateTime.now(),
+      category: Category.food,
+    ),
+    Expense(
+      title: "Groceries",
+      amount: 16.53,
+      date: DateTime.now(),
+      category: Category.leisure,
+    ),
+  ];
 
   _removeExpense(Expense expense) {
     final expenseIndex = _registeredExpenses.indexOf(expense);
@@ -62,7 +76,7 @@ class _ExpensesState extends State<Expenses> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Flutter Expenses Tracker"),
+        title: Text("Flutter Expenses Tracker", style: TextStyle(fontSize: 21)),
         actions: [
           IconButton(
             onPressed: () {
@@ -75,7 +89,7 @@ class _ExpensesState extends State<Expenses> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text("charts"),
+          Chart(expenses: _registeredExpenses),
           Expanded(child: mainContent),
         ],
       ),
