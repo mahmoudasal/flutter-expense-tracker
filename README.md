@@ -16,7 +16,29 @@ A cross-platform expense tracking app built with Flutter that helps you keep tra
 - **Adapts to you**: Responsive design that works on phones and tablets
 - **Runs smooth**: Optimized for performance with smooth animations
 
-## 📱 Screenshots
+## 🆕 Latest Updates
+
+### 🎉 **Version 1.2.0 - Enhanced User Experience**
+
+#### 📱 **Keyboard-Adaptive Modal Forms**
+- **Smart Keyboard Handling**: Forms automatically adjust when keyboard appears
+- **Dynamic Padding**: Content stays visible above the keyboard
+- **Smooth Scrolling**: Seamless scrolling when content overflows
+- **Safe Area Support**: Respects device notches and rounded corners
+
+#### 📐 **Responsive Design Improvements**
+- **Tablet-Optimized Layout**: Different form layouts for screens ≥600px
+- **Landscape Mode Support**: Better experience in landscape orientation
+- **Flexible Grid System**: Content adapts to available screen space
+- **Cross-Platform Consistency**: Native feel on both iOS and Android
+
+#### 🔧 **Technical Enhancements**
+- **Platform-Specific Dialogs**: iOS uses Cupertino, Android uses Material
+- **Improved Code Organization**: Better separation of concerns
+- **Enhanced Comments**: More readable and maintainable codebase
+- **Performance Optimizations**: Smoother animations and faster response times
+
+---
 
 <div align="center">
   <table>
@@ -46,17 +68,22 @@ A cross-platform expense tracking app built with Flutter that helps you keep tra
 - 🔄 **Undo Feature**: Accidentally deleted something? No problem - just undo it
 
 ### 🎨 User Experience
-- 📱 **Responsive**: Works great on different screen sizes
+- 📱 **Fully Responsive**: Works great on different screen sizes and orientations
+- ⌨️ **Keyboard-Adaptive Forms**: Modal automatically adjusts when keyboard appears
+- 📏 **Tablet-Optimized Layout**: Different layouts for screens ≥600px width
 - 🎨 **Material Design**: Clean, modern interface that feels familiar
 - 🌓 **Dark Mode**: Switches automatically with your system settings
 - ⚡ **Fast**: Smooth animations and quick response times
 - 🎯 **Easy to Use**: Simple navigation that makes sense
+- 🔄 **Smart Scrolling**: Content scrolls smoothly when space is limited
 
-### 🔧 Technical Stuff
+### 🔧 Technical Features
 - 🧱 **Well Organized**: Code is structured and easy to maintain
 - 🔒 **Safe**: Uses Dart's null safety to prevent crashes
 - 📊 **Ready for Charts**: Built with future analytics in mind
 - 🔄 **Smart State**: Efficient updates without unnecessary redraws
+- 🖥️ **Platform-Aware**: Uses native dialogs on iOS/Android
+- 📐 **Responsive Architecture**: Adapts to different screen sizes automatically
 
 ## 🚀 Getting Started
 
@@ -253,6 +280,12 @@ This project follows [Conventional Commits](https://www.conventionalcommits.org/
 - None currently identified
 
 ## 🗺️ Roadmap & Future Enhancements
+
+### ✅ **Recently Completed (v1.2.0)**
+- [x] **📱 Responsive Design**: Full responsive layout with keyboard adaptation
+- [x] **🎨 Enhanced Forms**: Modal bottom sheets with dynamic sizing
+- [x] **📐 Tablet Support**: Optimized layouts for larger screens
+- [x] **🖥️ Platform-Aware UI**: Native dialogs for iOS and Android
 
 ### 🚀 Version 2.0 (Q3 2025)
 - [ ] **📊 Advanced Analytics**: Interactive charts and spending insights
