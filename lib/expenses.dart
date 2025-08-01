@@ -12,10 +12,12 @@ class Expenses extends StatefulWidget {
 }
 
 class _ExpensesState extends State<Expenses> {
+  // Opens the add expense modal that adapts to keyboard
   _openAddExpenseOverlay() {
     showModalBottomSheet(
       context: context,
-      elevation: 50,
+      isScrollControlled: true, // Allows sheet to take full screen height
+      useSafeArea: true, // Respects safe area boundaries (notches, etc.)
       builder: (ctx) => NewExpense(onAddExpense: _addExpense),
     );
   }
@@ -63,6 +65,8 @@ class _ExpensesState extends State<Expenses> {
 
   @override
   Widget build(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+
     Widget mainContent = const Center(
       child: Text("No expenses found. Start adding some!"),
     );
@@ -86,13 +90,21 @@ class _ExpensesState extends State<Expenses> {
           ),
         ],
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Chart(expenses: _registeredExpenses),
-          Expanded(child: mainContent),
-        ],
-      ),
+      body: width < 600
+          ? Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Chart(expenses: _registeredExpenses),
+                Expanded(child: mainContent),
+              ],
+            )
+          : Row(
+              children: [
+                Expanded(child: Chart(expenses: _registeredExpenses)),
+                const SizedBox(width: 16),
+                Expanded(child: mainContent),
+              ],
+            ),
     );
   }
 }

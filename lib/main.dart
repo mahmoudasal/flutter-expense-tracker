@@ -1,5 +1,6 @@
 import 'package:expense_tracker/expenses.dart';
 import 'package:flutter/material.dart';
+// import 'package:flutter/services.dart';
 
 // Light mode colors - using a nice purple as the base
 var kColorScheme = ColorScheme.fromSeed(
@@ -18,12 +19,16 @@ var kDarkColorScheme = ColorScheme.fromSeed(
 
 // This is where everything starts
 void main() {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([
+  //   DeviceOrientation.portraitUp, // Only allow portrait mode
+  // ]).then((fn) {
   runApp(
     MaterialApp(
       // Getting rid of that debug banner - looks cleaner
       debugShowCheckedModeBanner: false,
 
-     // Dark theme setup
+      // Dark theme setup
       darkTheme: ThemeData.dark().copyWith(
         // Using our custom dark colors
         colorScheme: kDarkColorScheme,
@@ -107,4 +112,5 @@ void main() {
       home: Expenses(),
     ),
   );
+  // }); // This keeps the app in portrait mode
 }
